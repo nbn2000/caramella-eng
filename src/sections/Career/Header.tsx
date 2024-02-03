@@ -7,14 +7,14 @@ const Header = () => {
       <div className="absolute lg:w-[100%] top-[50%] left-[50%] -translate-x-[50%] -translate-y-[50%] p-[10px] rounded-[5px] flex justify-center items-center flex-col gap-[20px] text-center sm:gap-[5px]">
         <h1 className="h-42915 text-text232 md:text-[3rem]">
           <span className="relative h-42915 text-orange md:text-[3rem] ">
-            Карьера
+            Career
             <Underline className="absolute  -bottom-4 left-0 w-[100%]" />
           </span>
         </h1>
         <p className="b-125 w-full text-text233 sm:text-[1rem] sm:leading-[1.2rem]">
-          Агар сиз бизнинг аёллар клубимизга қўшилишни истасангиз, илтимос,
-          бизнинг иш ўринларимизни текширинг, агар сиз бизнинг талабларимизга
-          мос келсангиз, унда бизнинг оиламизга хуш келибсиз.
+          If you are interested in joining our women's club, please check our
+          job vacancies, if you fit our requirements, then welcome to our
+          family.
         </p>
       </div>
     </header>

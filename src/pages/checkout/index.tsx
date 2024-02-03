@@ -5,7 +5,7 @@ const Checkout = () => {
   return (
     <>
       <Head>
-        <title>Буйуртма Бериш</title>
+        <title>Checkout</title>
       </Head>
       <SectionChekout />
     </>

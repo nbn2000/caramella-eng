@@ -92,7 +92,7 @@ const MobileNav = () => {
                 <div className="w-[24px]">
                   <Logout color="#F2360A" />
                 </div>
-                <span className="l-1125 text-text232 w-max">Чиқиш</span>
+                <span className="l-1125 text-text232 w-max">Singout</span>
               </button>
             </li>
           </ul>

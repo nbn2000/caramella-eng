@@ -37,7 +37,7 @@ const Gallery = () => {
     <div className="cont-y container-p">
       <h2 className="h-237575 text-text232 text-center mb-10">
         <span className="h-237575 text-orange relative">
-          Галерея
+          Gallery
           <SmallUnderline className="absolute -bottom-2 left-0 w-full" />
         </span>
       </h2>

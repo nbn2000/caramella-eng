@@ -29,13 +29,13 @@ const ContactAndForm = () => {
   return (
     <div className="cont-y container-p flex flex-row justify-between items-start gap-6 lg:flex-col lg:items-center">
       <div>
-        <h3 className="h-237575 text-text232">Саволларингиз борми ?</h3>
-        <h5 className="b-145475 text-gray-500 mb-7">Бизга Хабар Юборинг</h5>
+        <h3 className="h-237575 text-text232">Do You have questions ?</h3>
+        <h5 className="b-145475 text-gray-500 mb-7">Send us message</h5>
         <FormProvider {...methods}>
           <form onSubmit={handleSubmit(onSubmit)}>
-            <RHFTextfield name="name" placeholder="Сизнинг Исмингиз" />
-            <RHFPhone name="tel" placeholder="Сизнинг телефонингиз" />
-            <RHFTextarea name="description" placeholder="Тавсиф" />
+            <RHFTextfield name="name" placeholder="Your Name" />
+            <RHFPhone name="tel" placeholder="Your phone number" />
+            <RHFTextarea name="description" placeholder="description" />
             <button
               type="submit"
               className="button-text text-white btn-contained w-full"
@@ -43,7 +43,7 @@ const ContactAndForm = () => {
               {isLoading ? (
                 <span className="loading loading-spinner" />
               ) : (
-                "Жўнатиш"
+                "Submit"
               )}
             </button>
           </form>
@@ -56,30 +56,30 @@ const ContactAndForm = () => {
         </h3>
         <div className="flex flex-col justify-start items-start gap-[2rem]">
           <div>
-            <h5 className="b-145475  text-text233">Бизнинг Манзил:</h5>
+            <h5 className="b-145475  text-text233">Our Address:</h5>
             <p className="b-0875 text-gray-500">
-              Ўзбекистон &#10093; Наманган &#10093; Бобуршох кўча &#10093;
-              Боссмилк кафеси ёнида
+              Uzbekistan &#10093; Namangan &#10093; Boburshox street &#10093;
+              Near to Bossmilk coffee shop
             </p>
           </div>
           <hr className="w-full h-[2px] bg-gray-300" />
           <div>
             <div className="flex flex-row gap-4 justify-start items-center">
-              <h5 className="text-lg text-text233">Телефон Рақам:</h5>
+              <h5 className="text-lg text-text233">Phone number:</h5>
               <p className="b-0875 text-gray-500">+998 91 352 44 74</p>
             </div>
             <div className="flex flex-row gap-4 justify-start items-center">
-              <h5 className="text-lg text-text233">Телефон Рақам:</h5>
+              <h5 className="text-lg text-text233">Phone number:</h5>
               <p className="b-0875 text-gray-500">+998 33 052 44 74</p>
             </div>
             <div className="flex flex-row gap-4 justify-start items-center">
-              <h5 className="text-lg text-text233">Электрон почта:</h5>
+              <h5 className="text-lg text-text233">Email:</h5>
               <p className="b-0875 text-gray-500">caramella@gmail.com</p>
             </div>
             <div className="flex flex-row gap-4 justify-start items-center">
-              <h5 className="text-lg text-text233">Иш Вақти:</h5>
+              <h5 className="text-lg text-text233">Working Hours:</h5>
               <p className="b-0875 text-gray-500">
-                <strong>Душ-Боз:</strong> 9:00-18:00
+                <strong>Mon-Sun:</strong> 9:00-18:00
               </p>
             </div>
           </div>

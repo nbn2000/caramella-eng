@@ -44,7 +44,7 @@ const DesktopNav = () => {
             <div className="flex flex-row items-center justify-center gap-[0.31rem]">
               <Profile color="#F2360A" />{" "}
               <span className="l-1125 text-text232">
-                {login?.name ? login?.name : "Мижоз"}
+                {login?.name ? login?.name : "Client"}
               </span>
             </div>
           </summary>
@@ -68,7 +68,7 @@ const DesktopNav = () => {
                 <div className="w-[24px]">
                   <Logout color="#F2360A" />
                 </div>
-                <span className="l-1125 text-text232 w-max">Чиқиш</span>
+                <span className="l-1125 text-text232 w-max">Signout</span>
               </button>
             </li>
           </ul>
@@ -80,7 +80,7 @@ const DesktopNav = () => {
             className="flex flex-row justify-center items-center gap-[0.31rem]"
           >
             <Login color="#F2360A" />{" "}
-            <span className="l-1125 text-text232">Кириш</span>
+            <span className="l-1125 text-text232">Signin</span>
           </button>
           <LoginModal setOpen={setOpen} open={open} />
         </>

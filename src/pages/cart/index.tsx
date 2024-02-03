@@ -5,7 +5,7 @@ const Cart = () => {
   return (
     <>
       <Head>
-        <title>Саватча</title>
+        <title>Cart</title>
         <meta
           name="description"
           content="Review and edit your shopping cart at Caramella. Add, remove, or modify items before completing your order. Ensure a delightful and seamless shopping experience with our handcrafted treats."

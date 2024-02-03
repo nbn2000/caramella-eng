@@ -30,10 +30,10 @@ const ConnectUs = () => {
   return (
     <div className="container-p cont-y">
       <h2 className="h-237575 text-text232 text-center mb-10">
-        Биз Билан{" "}
         <span className="h-237575 text-orange relative">
-          Боғланинг
+          Contact{" "}
           <SmallUnderline className="absolute -bottom-2 left-0 w-full" />
+          with Us
         </span>
       </h2>
       <div className="flex flex-row justify-between items-center lg:flex-col lg:justify-center lg:gap-6">
@@ -52,9 +52,9 @@ const ConnectUs = () => {
             onSubmit={handleSubmit(onSubmit)}
             className="w-[40%] mx-auto lg:w-[80%] md:w-[100%]"
           >
-            <RHFTextfield name="name" placeholder="Исмингиз" />
-            <RHFPhone name="tel" placeholder="Телефонингиз" />
-            <RHFTextarea name="description" placeholder="Тавсиф" />
+            <RHFTextfield name="name" placeholder="Your Name" />
+            <RHFPhone name="tel" placeholder="Your Phone" />
+            <RHFTextarea name="description" placeholder="Description" />
             <button
               type="submit"
               className="button-text text-white btn-contained w-full"
@@ -62,7 +62,7 @@ const ConnectUs = () => {
               {isLoading ? (
                 <span className="loading loading-spinner" />
               ) : (
-                "Юбориш"
+                "Submit"
               )}
             </button>
           </form>

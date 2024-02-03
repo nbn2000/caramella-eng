@@ -9,10 +9,9 @@ const WhatWeOffer = () => {
   return (
     <div className="container-p cont-y">
       <h2 className="h-237575 text-text232 text-center mb-10">
-        Биз Нима{" "}
+        What we{" "}
         <span className="h-237575 text-orange relative">
-          Таклиф Қиламиз{" "}
-          <SmallUnderline className="absolute -bottom-2 left-0 w-full" />
+          offer <SmallUnderline className="absolute -bottom-2 left-0 w-full" />
         </span>
       </h2>
       <div className={styles.body}>
@@ -27,13 +26,10 @@ const WhatWeOffer = () => {
             />
           </figure>
           <div className="card-body">
-            <h2 className="card-title text-black h-175063">
-              Турли хил тортлар
-            </h2>
+            <h2 className="card-title text-black h-175063">Variety of Cakes</h2>
             <p className="text-text233 b-0875">
-              Биз ҳар қандай зиёфат ёки тўй учун юқори сифатли табиий
-              ингредиентлар ва консервантларсиз тайёрланган турли хил тортларни
-              тақдим этамиз.
+              We offer a variety of cakes for any party or wedding, made with
+              high quality natural ingredients and without preservatives.
             </p>
             <div className="card-actions justify-end"></div>
           </div>
@@ -50,12 +46,12 @@ const WhatWeOffer = () => {
           </figure>
           <div className="card-body">
             <h2 className="card-title text-black h-175063">
-              Турли Хил Печёнийлар
+              Variety of Cookies
             </h2>
             <p className="text-text233 b-0875">
-              Килограмм ёки лаганда сотиладиган печёнийлар кенг ассортиментини
-              кашф этинг. Вариантлар орасида "песёчнийлар", "пахлавалар" ва
-              бошқа турли хил жозибали навлар мавжуд.
+              Discover our wide range of biscuits sold by the kilo or by the
+              tray. Options include "pesyochnyi", "baklava" and various other
+              attractive varieties.
             </p>
             <div className="card-actions justify-end"></div>
           </div>
@@ -72,12 +68,12 @@ const WhatWeOffer = () => {
           </figure>
           <div className="card-body">
             <h2 className="card-title text-black h-175063">
-              Ярим тайёр маҳсулотлар
+              Helf Ready Products
             </h2>
             <p className="text-text233 b-0875">
-              Биз барча ингредиентларни сиз учун тайёрлаймиз; шунчаки шахсий
-              декорациянгизни қилинг ва волия, яқинларингизни ажойиб сюрприз
-              билан хурсанд қилинг.
+              We prepare all the ingredients for you; just make your own
+              decoration and voila, please your loved ones with a wonderful
+              surprise.
             </p>
             <div className="card-actions justify-end"></div>
           </div>

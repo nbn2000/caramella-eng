@@ -21,10 +21,10 @@ const Footer = () => {
               </Link>
             </div>
             <div className="flex flex-col gap-3">
-              <h3 className="h-175063 ">Иш Вақтлари</h3>
+              <h3 className="h-175063 ">Working Hours</h3>
               <div className="flex flex-row justify-between items-center">
                 <p className="b-0875 max-w-[500px] text-white md:text-center">
-                  Душ-Боз:
+                  Mon-Sun:
                 </p>
                 <p className="b-0875 max-w-[500px] text-white md:text-center">
                   9:00-18:00
@@ -33,37 +33,37 @@ const Footer = () => {
             </div>
           </div>
           <p className="b-0875 max-w-[500px] text-white md:text-center">
-            Ширинлик симфониясидан баҳраманд бўлинг: ҳар бири мукаммал
-            пиширилган, чидаб бўлмас торт ва печёнийлар дунёсига шўнғинг. Қувонч
-            ва сифатли ҳунармандчиликнинг ҳақиқий моҳиятини ҳис этинг.
+            Enjoy a symphony of sweets: Immerse yourself in a world of
+            irresistible cakes and pastries, each baked to perfection.
+            Experience the true essence of joy and quality craftsmanship.
           </p>
         </div>
         <div className="flex flex-row justify-center items-center gap-16 xl:gap-8">
           <div className="flex flex-col justify-start items-start gap-4 pt-10 px-6 md:pt-0">
             <Link href="/" className="l-1125 !font-bold">
-              Асосий
+              Home
             </Link>
             <Link href="/about" className="l-1125 !font-bold">
-              Хақимизда
+              About
             </Link>
             <Link href="/menu" className="l-1125 !font-bold">
-              Меню
+              Menu
             </Link>
           </div>
           <div className="flex flex-col justify-start items-start gap-4 pt-10 px-6 md:pt-0">
             <Link href="/career" className="l-1125 !font-bold">
-              Карьера
+              Career
             </Link>
             <Link href="/cart" className="l-1125 !font-bold">
-              Саватча
+              Cart
             </Link>
             <Link href="/contact" className="l-1125 !font-bold">
-              Кантакт
+              Contact
             </Link>
           </div>
         </div>
         <div className="flex flex-col justify-end items-end gap-4 md:justify-center md:items-center md:gap-2">
-          <h3 className="b-125 uppercase !font-bold">Контактлар</h3>
+          <h3 className="b-125 uppercase !font-bold">Contacts</h3>
           <div className="flex flex-col justify-center items-center gap-2 font-medium leading-8 tracking-widest">
             <span>+99891 352 4474</span>
             <span>+99833 052 4474</span>

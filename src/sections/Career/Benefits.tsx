@@ -10,19 +10,19 @@ const Benefits = () => {
   return (
     <div className="container-p cont-y flex flex-row justify-between items-start gap-6 xl:flex-col ">
       <div className="flex flex-col justify-start items-start gap-4 max-w-[27rem] 1xl:max-w-[23rem] xl:max-w-[27rem]">
-        <h2 className="h-175063 text-orange">Афзалликлар</h2>
+        <h2 className="h-175063 text-orange">Benefits</h2>
         <h3 className="h-237575 text-text232">
-          Нима учун бизнинг{" "}
+          Why you should join to our{" "}
           <span className="h-237575 text-orange relative">
-            Aжойиб
+            Awesome
             <SmallUnderline className="absolute -bottom-2 left-0 w-full" />
           </span>{" "}
-          жамоамизга қўшилишингиз керак
+          team
         </h3>
         <p className="b-0875  text-[#848383]">
-          Биз сизни Caramella да ишлаётганингизда ўзингизни уйдагидек ҳис
-          қилишингизни хоҳлаймиз ва бунинг учун биз сиз учун ажойиб имтиёзлар
-          тўпламини тайёрлаганмиз. Ҳаммаси бепул тушликдан бошланади!
+          We want you to feel right at home when you work at Caramella, and to
+          do that, we've put together a great package of benefits for you. It
+          all starts with a free lunch!
         </p>
       </div>
       <div className="flex flex-row flex-wrap justify-center items-center gap-5">
@@ -37,11 +37,11 @@ const Benefits = () => {
             />
           </div>
           <h3 className="b-145475 text-[1.2rem] text-orange max-w-[200px] uppercase">
-            Мижозлар
+            Clients
           </h3>
           <p className="b-0875  text-[#848383] ">
-            Бизнинг биринчи устуворлигимиз мижозларимиздир, лекин биз
-            бир-биримизга ғамхўрлик қиламиз
+            Our first priority is our customers, but we also take care of each
+            other
           </p>
         </div>
         <div className="flex flex-col justify-start items-start gap-2 max-w-[250px]">
@@ -55,11 +55,11 @@ const Benefits = () => {
             />
           </div>
           <h3 className="b-145475 text-orange max-w-[200px] uppercase whitespace-nowrap">
-            Ишлаб Чиқариш
+            Production
           </h3>
           <p className="b-0875  text-[#848383] ">
-            Биргаликда ишлаш орқали биз мақсадларимизга биргаликда эришамиз,
-            бунда ҳар бир ҳисса бизнинг умумий муваффақиятимизга муҳимдир
+            By working together, we achieve our goals together, where each
+            contribution is important to our overall success
           </p>
         </div>{" "}
         <div className="flex flex-col justify-start items-start gap-2 max-w-[250px]">
@@ -73,13 +73,12 @@ const Benefits = () => {
             />
           </div>
           <h3 className="b-145475 text-orange max-w-[200px] uppercase">
-            Биз Оиламиз
+            We are Familiy
           </h3>
           <p className="b-0875  text-[#848383] ">
-            Биз унвон бўйича ҳамкасблар бўлсак-да, биз оддий ҳамкасблардан устун
-            турамиз, бу бизнинг ришталаримизни мустаҳкамлайдиган ва
-            қўллаб-қувватловчи меҳнат жамоасини ривожлантирадиган оила туйғусини
-            ўзида мужассам этган.
+            Although we are colleagues by title, we are more than just
+            colleagues, embodying a sense of family that strengthens our bonds
+            and fosters a supportive work community.
           </p>
         </div>{" "}
         <div className="flex flex-col justify-start items-start gap-2 max-w-[250px]">
@@ -93,12 +92,12 @@ const Benefits = () => {
             />
           </div>
           <h3 className="b-145475 text-orange max-w-[200px] uppercase">
-            Маҳсулотимиз
+            Our Product
           </h3>
           <p className="b-0875  text-[#848383] ">
-            Бизнинг cомпаниямизнинг марказида мартабангизни кўтаринг. Ҳар бир
-            лаҳзага ширинлик қўшиб, нафис торт ва печене тайёрлашга ҳисса
-            қўшинг.
+            Advance your career at the heart of our company. Contribute to the
+            creation of exquisite cakes and cookies, adding sweetness to every
+            moment.
           </p>
         </div>
       </div>

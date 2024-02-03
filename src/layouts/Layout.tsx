@@ -18,7 +18,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
   return (
     <SnackbarProvider
       autoHideDuration={5000}
-      action={(snackbarKey) => <CloseButton snackbarKey={snackbarKey} />}
+      action={(snackbarKey: any) => <CloseButton snackbarKey={snackbarKey} />}
     >
       <Head>
         <meta httpEquiv="x-ua-compatible" content="ie=edge" />

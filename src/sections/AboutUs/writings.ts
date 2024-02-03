@@ -6,31 +6,31 @@ export const writings = [
   {
     reverse: false,
     section: "section-1",
-    header: "Бизнинг тарихимиз ҳақида",
+    header: "About our history",
     showedText:
-      "Собирова Назокат 2002-йилда қандолатчилик соҳасида ўз йўлини бошлаган бўлиб, дастлаб ўз уйида туриб мазали пишириқлар таёрлаган. Унинг ташаббуси унинг пиширган пишириқлари ёқимли таъмига мафтун бўлган дўстлари ва қариндош аъзоларидан буюртмалар келиши билан бошланди. ",
+      "Sobirova Nazokat started her career in the field of confectionery in 2002, at first she prepared delicious pastries at home. Her venture began with orders from friends and relatives who were fascinated by the delicious taste of her baked goods.",
     hiddenText:
-      "Ижобий оғзаки нутқ тез тарқалди, бу унинг ширин ва ажойиб ижодига бўлган талабнинг ортишига олиб келди. Ўтган йиллар давомида Собирова 1000дан ортиқ ўқувчиларга ўз тажрибасини бериб, ўзининг ажойиб маҳорати учун эътироф ва олқишларга сазовор бўлди. Ажойиб шараф сифатида унинг маҳалла комитет томонидан унинг шарафига маҳаллани номини Ширинлик кўчаси деб номлади. Унинг қандолатчиликка бўлган иштиёқи 2018-йилда севимли машғулот сифатида бошланган, мамнун бўлган мижозларнинг катта ёрдами туфайли гуллаб-яшнаётган бизнесга айланди. Собирова ва унинг турмуш ўртоғи Маҳмудов Босит ўсиш имкониятларини тушуниб, махсус қандолатчилик фабрикасини ташкил этиш тўғрисида стратегик қарор қабул қилишди. Укаси Иброҳим Собировнинг қимматли кўмагида улар “Caramella” заводини муваффақиятли ишга туширишди. Ташкил этилганидан бери Caramella Намангандаги энг машҳур қандолатчилик фабрикаларидан бири сифатида машҳурликка эришди. Бу муваффақият тарихи Шодия, Машхура, Моҳидил, Муборак, Наима каби муҳим шахсларнинг фидойилиги ва меҳнатисиз амалга ошмасди. Уларнинг ўзгармас садоқати Caramella ни бугунги кунда машҳур муассасага айлантиришда муҳим рол ўйнади. Миннатдорчилик белгиси сифатида биз ушбу меҳнатсевар ва фидойи инсонларга чин дилдан миннатдорчилик билдирамиз.",
+      "Positive word-of-mouth spread quickly, leading to increased demand for her sweet and wonderful creations. Over the years, Sobirova has taught more than 1000 students and received recognition and applause for her outstanding skills. As a great honor, his neighborhood committee named the neighborhood Shirinlik Street in his honor. Her passion for baking started as a hobby in 2018 and turned into a thriving business thanks to great support from satisfied customers. Sobirova and her husband Mahmudov Bosit realized the growth opportunities and made a strategic decision to establish a special confectionery factory. With the valuable support of his brother Ibrahim Sobirov, they successfully launched the 'Caramella' factory. Since its establishment, Caramella has gained popularity as one of the most famous confectionery factories in Namangan. This success story would not have been possible without the dedication and hard work of important people such as Shadiya, Mashkhura, Mohidil, Mubarak, Naima. Their unwavering loyalty has been instrumental in making Caramella the popular establishment it is today. As a token of appreciation, we express our sincere thanks to these hardworking and dedicated people.",
     img: PastryChef,
   },
   {
     reverse: true,
     section: "section-2",
-    header: "Бизнинг ишчиларимиз ҳақида",
+    header: "About our employees",
     showedText:
-      "Компаниямизда биз ноёб ва инклюзив иш муҳитини яратиш орқали ўзимизни ажратиб турамиз. Бизнинг ўзига хос ёндашувимиз компания таъсисчилари бундан мустасно, аёл ходимларнинг эксклюзив иштироки билан тавсифланади. Биз аёлларнинг ажойиб маҳоратига, хусусан, мазали қандолатчилик санъатига ишонамиз. Ҳамкорлик одоб-ахлоқини ўзлаштирган ҳолда, бизнинг фидойи аёллар жамоамиз бирдамлик кучини намойиш этади.",
+      "At our company, we set ourselves apart by creating a unique and inclusive work environment. Our unique approach is characterized by the exclusive participation of female employees, with the exception of company founders. We believe in the amazing skills of women, especially in the art of delicious pastry. Embracing an ethos of collaboration, our team of dedicated women demonstrates the power of unity.",
     hiddenText:
-      "Маданий қадриятларимизга мос равишда ва динимиз тамойилларини ҳурмат қилган ҳолда, биз жинслар бўйича ажратилган иш жойини сақлаш муҳимлигини тан оламиз. Аёллар учун қулай иш муҳитини яратиш бўйича бизнинг мажбуриятимиз муайян контекстларда биргаликдаги ўзаро муносабатлар қийин бўлиши мумкинлигини тушуниш билан таъкидланади. Шу боис, диний кўрсатмаларимизга уйғун амал қилишни таъминлаган ҳолда, фақат аёллар учун ажратилган жойлар ташкил этиш бўйича пухта ташаббусни амалга оширмоқдамиз. Диний ақидаларни ҳурмат қиладиган ва аёллар ишчи кучимизнинг истеъдодларини тарбиялайдиган иш муҳитини таъминлаш орқали биз аёлларга қулайлик ва маданий уйғунлик ҳиссини сақлаб қолган ҳолда ўзларининг профессионал ҳаракатларида устунлик қилишларини мақсад қилганмиз.",
+      "Consistent with our cultural values and respecting the tenets of our religion, we recognize the importance of maintaining a gender-segregated workplace. Our commitment to creating a work environment conducive to women is underpinned by the understanding that collaborative relationships can be challenging in certain contexts. Therefore, we are taking a careful initiative to establish women-only spaces while ensuring that we follow our religious guidelines. By providing a work environment that respects religious beliefs and nurtures the talents of our female workforce, we aim for women to excel in their professional endeavors while maintaining a sense of comfort and cultural fit.",
     img: EmployeesImage,
   },
   {
     reverse: false,
     section: "section-3",
-    header: "Махсулотларимиз ҳақида",
+    header: "About our products",
     showedText:
-      "Бизнинг миссиямизнинг марказида мижозларимизга содиқлик ётади ва уларни бизнинг саъй-ҳаракатларимизда биринчи ўринга қўяди. Биз харажат самарадорлигини чуқур англаган ҳолда, юқори сифатли маҳсулотларни ишлаб чиқаришга астойдил эътибор қаратамиз. Бизнинг асосий мақсадимиз - тенгсиз пазандачилик тажрибасини тақдим этиш, ҳар бир киши энг мазали ва кўзни қамаштирувчи тортларни ҳамёнбоп нархда татиб кўриш завқига эга бўлишини таъминлашдир.",
+      "Loyalty to our customers is at the heart of our mission and puts them first in our efforts. We are committed to producing high quality products with a deep understanding of cost effectiveness. Our main goal is to provide an unparalleled culinary experience, ensuring that everyone has the pleasure of tasting the most delicious and eye-catching cakes at an affordable price.",
     hiddenText:
-      "Мукаммалликка интилишда биз шунчаки қандолатчиликни яратиш билан чекланамиз; биз мижозларимиз учун қувонч ва завқли дақиқаларни танлашга интиламиз. Сифат ва ҳамёнбопликни узлуксиз уйғунлаштириб, биз ўз ижодимизнинг нафис таъмини излаётганлар учун ғайриоддий нарсаларни очиқ қилиб, оддийликдан ошиб кетишни мақсад қилганмиз. Сизнинг мамнунлигимиз нафақат бизнинг устуворлигимиз; бу сифат ва қийматнинг мукаммал уйғунлигини таъминлашда қилган ҳар бир танловимиз ортидаги ҳаракатлантирувчи кучдир.",
+      "In our pursuit of perfection, we limit ourselves to simply creating confections; we strive to choose moments of joy and pleasure for our customers. By seamlessly combining quality and affordability, we aim to transcend the ordinary, making the extraordinary accessible to those seeking an exquisite taste of our creations. Your satisfaction is not only our priority; it's the driving force behind every choice we make in ensuring the perfect balance of quality and value.",
     img: ProductImage,
   },
 ];

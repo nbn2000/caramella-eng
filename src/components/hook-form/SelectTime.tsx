@@ -63,7 +63,7 @@ const SelectTime = ({
       />
       {isError.time && (
         <span className="text-[red] mt-[5px] text-sm flex flex-row gap-2 justify-start items-center">
-          <Info /> Илтимос вақтни танланг
+          <Info /> Please select a time
         </span>
       )}
     </div>

@@ -16,7 +16,7 @@ const SendModal = ({
   const hidden = openModal ? "absolute" : "hidden";
   const onCopy = () => {
     copy(reference || "");
-    enqueueSnackbar("Номерингиз копия бўлди", { variant: "success" });
+    enqueueSnackbar("Your code is copied", { variant: "success" });
   };
 
   const handleClick = () => {
@@ -29,22 +29,22 @@ const SendModal = ({
     >
       <div className="flex flex-col justify-center items-center gap-4 w-full h-full">
         <h3 className="font-bold text-lg text-text233 text-center">
-          Биздан харид қилганингиз учун рахмат!
+          Thank you for shopping with us!
         </h3>
         <h4 className="text-base text-text232 text-center">
-          Сизнинг Харид Рақамингиз{" "}
+          Your Purchase Code{" "}
           <button className="font-extrabold cursor-pointer" onClick={onCopy}>
             {reference}
           </button>
         </h4>
         <p className="text-base text-text232 text-center">
-          Сизга тез орада алоқага чиқишади
+          You will be contacted shortly
         </p>
         <button
           className="button-text text-white btn-contained"
           onClick={handleClick}
         >
-          Бош Сахифага Қайтиш
+          Go to home page
         </button>
       </div>
     </div>

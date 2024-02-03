@@ -9,10 +9,11 @@ const WhyChooseUs = () => {
     <div>
       <div className="cont-y">
         <h2 className="h-237575 text-text232 text-center mb-10 md:text-center">
-          Нега Бизни{" "}
+          Why{" "}
           <span className="h-237575 text-orange relative md:text-center whitespace-nowrap">
-            Танлайсиз
+            Choose{" "}
             <SmallUnderline className="absolute -bottom-2 left-0 w-full" />
+            Us
           </span>
         </h2>
       </div>
@@ -28,12 +29,12 @@ const WhyChooseUs = () => {
             />
           </div>
           <h3 className="h-175063 text-[#000] max-w-[400px] text-center">
-            Махсулот Кафолати
+            Product Guarantee
             <hr className="w-[70%] h-[3px] bg-orange rounded-[30rem] my-1 mx-auto" />
           </h3>
           <p className="b-125  text-[#848383] text-center">
-            Бизнинг махсулотимизни динимиз йетакчилари хам истемол қилиши сизга
-            махсулотимиз халоллигига далил беради
+            The fact that our product is consumed by the leaders of our religion
+            gives you proof of the halal quality of our product
           </p>
         </div>
         <div className="flex flex-col justify-center items-center gap-6 max-w-[350px]">
@@ -47,13 +48,12 @@ const WhyChooseUs = () => {
             />
           </div>
           <h3 className="h-175063 text-[#000] max-w-[400px] text-center">
-            Махсулотимиз Бахоси
+            Product Value
             <hr className="w-[70%] h-[3px] bg-orange rounded-[30rem] my-1 mx-auto" />
           </h3>
           <p className="b-125  text-[#848383] text-center">
-            Мижозларимизни фикрича бизнинг компаниямиз шахардаги энг арзон лекин
-            юқори сифатли махсулотларни ишлаб чиқариш бўйича йетакчи ўринларни
-            эганлайди
+            According to our customers, our company is the leader in the
+            production of the cheapest but high-quality products in the city.
           </p>
         </div>
         <div className="flex flex-col justify-center items-center gap-6 max-w-[350px]">
@@ -67,12 +67,12 @@ const WhyChooseUs = () => {
             />
           </div>
           <h3 className="h-175063 text-[#000] max-w-[400px] text-center">
-            Маҳсулот Хавфсизлиги
+            Product Safety
             <hr className="w-[70%] h-[3px] bg-orange rounded-[30rem] my-1 mx-auto" />
           </h3>
           <p className="b-125 text-[#848383] text-center">
-            Биз мижозларимизни соғлигини ўйлаган ҳолда ва маҳсулотимизни
-            тозалигига ишонч ҳосил қилган ҳолда маҳсулотларимизни таёрлаймиз
+            We prepare our products with the health of our customers in mind and
+            the purity of our products
           </p>
         </div>
       </div>

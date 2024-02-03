@@ -48,23 +48,23 @@ const ModalSubmit = ({
         <form onSubmit={handleSubmit(onSubmit)}>
           <div className="mb-4">
             <h4 className="h-175063 text-text232 md:text-base">
-              Биз билан ишлашни ҳоҳлайсизми ?
+              Do you want to work with us?
             </h4>
             <h4 className="b-145475 text-orange md:text-sm">
-              Илтимос, қуйидаги шаклни тўлдиринг
+              Please fill out the form below
             </h4>
           </div>
-          <RHFTextfield name="fullName" placeholder="Тўлиқ Исм Шарифингиз" />
-          <RHFPhone name="tel" placeholder="Телефон Рақамингиз" />
+          <RHFTextfield name="fullName" placeholder="Your Fullname" />
+          <RHFPhone name="tel" placeholder="Your phone number" />
           <RHFTextarea
             name="description"
-            placeholder="Ўзингиз ҳақингизда бир оз"
+            placeholder="Little bit about yourself"
           />
           <button
             type="submit"
             className="button-text text-white btn-contained w-full"
           >
-            Топшириш
+            Submit
           </button>
         </form>
       </FormProvider>

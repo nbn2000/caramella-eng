@@ -81,7 +81,7 @@ const EachSection = ({
           className="btn-contained button-text text-white"
           onClick={() => onClick(!showText, sectionId)}
         >
-          {showText && !transition ? "Камроқ Ўқиш" : "Кўпроқ Ўқиш"}
+          {showText && !transition ? "Read Less" : "Read More"}
         </button>
       </div>
     </div>

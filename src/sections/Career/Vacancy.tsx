@@ -9,11 +9,11 @@ const Vacancy = ({ vacancy }: { vacancy: any }) => {
       <h3 className="h-237575 text-text232">{vacancy?.vacancyName}</h3>
       <div className="flex flex-col gap-[24px]">
         <div className="max-w-[540px]">
-          <h4 className="h-175063 text-orange">Йиллик Тажриба</h4>
+          <h4 className="h-175063 text-orange">Years Experience</h4>
           <p className="b-0875 text-[#848383]">{vacancy?.experience}</p>
         </div>
         <div className="max-w-[540px]">
-          <h4 className="h-175063 text-orange">Масъулиятлар</h4>
+          <h4 className="h-175063 text-orange">Responsibilities</h4>
           {vacancy?.responsibility?.map((i: any, idx: number) => (
             <p
               key={idx}
@@ -25,7 +25,7 @@ const Vacancy = ({ vacancy }: { vacancy: any }) => {
           ))}
         </div>
         <div className="max-w-[540px]">
-          <h4 className="h-175063 text-orange">Мажбуриятлар</h4>
+          <h4 className="h-175063 text-orange">Requirements</h4>
           {vacancy?.requirement?.map((i: any, idx: number) => (
             <p
               key={idx}
@@ -37,7 +37,7 @@ const Vacancy = ({ vacancy }: { vacancy: any }) => {
           ))}
         </div>
         <div className="max-w-[540px]">
-          <h4 className="h-175063 text-orange">Шартлар</h4>
+          <h4 className="h-175063 text-orange">Conditions</h4>
           {vacancy?.condition?.map((i: any, idx: number) => (
             <p
               key={idx}

@@ -21,8 +21,7 @@ const Vacancies = () => {
     return (
       <div className="cont-y container-p flex justify-center items-center">
         <h3 className="h-175063 text-text232 mb-10 ">
-          Узур сўраймиз хозирги вақтда вакансиямиз йўқ, илтимос кейинроқ
-          текшириб кўринг
+          Sorry, we currently have no vacancies, please check back later
         </h3>
       </div>
     );
@@ -30,9 +29,9 @@ const Vacancies = () => {
   return (
     <div className="cont-y container-p">
       <h3 className="h-237575 text-text232 mb-10 ">
-        Мавжуд{" "}
+        Available{" "}
         <span className="h-237575 text-orange relative">
-          Иш-Ўринлари
+          Vacancies
           <SmallUnderline className="absolute -bottom-2 left-0 w-full" />
         </span>
       </h3>

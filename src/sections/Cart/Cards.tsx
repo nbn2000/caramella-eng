@@ -95,7 +95,7 @@ const Cards = ({
       </div>
 
       <div className="flex flex-row justify-center items-center gap-4 whitespace-nowrap md:!justify-between md:w-[95%]">
-        <span className="b-125 text-text233">{price} сўм</span>
+        <span className="b-125 text-text233">{price} so'm</span>
         <button onClick={handleDelete}>
           <Trash />
         </button>

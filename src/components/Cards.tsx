@@ -47,7 +47,7 @@ const Cards = ({ data }: { data: typeArray | undefined }) => {
                     <div className="relative ">
                       <Badge className="w-10 h-10" />
                       <span className=" text-[0.7rem] text-[#F0F0F0] absolute top-[50%] left-[50%] -translate-x-[50%] -translate-y-[50%]">
-                        Янги
+                        New
                       </span>
                     </div>
                   )}
@@ -55,7 +55,7 @@ const Cards = ({ data }: { data: typeArray | undefined }) => {
                 <p className="text-text233 b-0875">{i.description}</p>
                 <div className="card-actions justify-end">
                   <div className="badge badge-outline btn-border py-3 px-5 text-text232">
-                    {i.price} сўм
+                    {i.price} so'm
                   </div>
                 </div>
               </div>

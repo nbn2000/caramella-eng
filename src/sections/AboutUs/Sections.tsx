@@ -8,11 +8,11 @@ const Sections = () => {
     <section className="container-p cont-y ">
       <div className="cont-y ">
         <h2 className="h-237575 text-text232 text-center mb-10 md:text-center">
-          Биз Ҳақимизда{" "}
           <span className="h-237575 text-orange relative md:text-center whitespace-nowrap">
-            Танишинг
+            Find Out{" "}
             <SmallUnderline className="absolute -bottom-2 left-0 w-full" />
           </span>
+          About Us
         </h2>
       </div>
       <div className="flex flex-col justify-center  gap-24">

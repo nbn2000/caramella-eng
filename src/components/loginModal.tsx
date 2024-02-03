@@ -1,8 +1,10 @@
 import { useUserSignupMutation } from "@/api/singup.api.req";
-import { Cancel, Logo } from "@/svg/view";
+import { Cancel } from "@/svg/view";
 import Link from "next/link";
 import { useRouter } from "next/router";
+import CaramellaLogo2 from "@/assets/caramella-logo/caramella-logo2.png";
 import PinInput from "react-pin-input";
+import Image from "next/image";
 const LoginModal = ({
   setOpen,
   open,
@@ -38,10 +40,20 @@ const LoginModal = ({
         <Cancel />
       </button>
       <div className="w-full flex flex-col justify-center items-center gap-6">
-        <Logo />
+        <div className="w-[140px] p-[2px] ">
+          <Link href="/">
+            <Image
+              width={0}
+              height={0}
+              className="w-full"
+              src={CaramellaLogo2}
+              alt="Caramella logo"
+            />
+          </Link>
+        </div>
         <div className="flex flex-col justify-center items-center text-center">
           <h4 className="h-175063 text-orange whitespace-nowrap">
-            Кодни Киритинг
+            Enter the code
           </h4>
           <p className="b-0875">
             <Link
@@ -51,7 +63,7 @@ const LoginModal = ({
             >
               @register_caramella_bot
             </Link>{" "}
-            телеграм ботига киринг ва 1 дақиқалик кодингизни олинг
+            enter the telegram bot and get your 1 minute code
           </p>
         </div>
         <form className="w-max">

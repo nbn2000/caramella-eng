@@ -9,9 +9,9 @@ const NewProducts = () => {
   return (
     <div className="cont-y container-p">
       <h2 className="h-237575 text-text232 text-center mb-10">
-        Янги{" "}
+        New{" "}
         <span className="h-237575 text-orange relative">
-          Махсулотлар
+          Products
           <SmallUnderline className="absolute -bottom-2 left-0 w-full" />
         </span>
       </h2>

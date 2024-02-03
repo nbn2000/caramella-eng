@@ -8,8 +8,8 @@ const Error = () => {
   return (
     <div className="absolute top-[50%] left-[50%] -translate-x-[50%] -translate-y-[50%]">
       <div className="flex flex-col justify-center items-center">
-        <h1>Нимадур хато бўлди!</h1>
-        <h5>илтимос сахифага қайтадан кириб кўринг</h5>
+        <h1>Something went wrong!</h1>
+        <h5>please try to refresh page again</h5>
       </div>
     </div>
   );

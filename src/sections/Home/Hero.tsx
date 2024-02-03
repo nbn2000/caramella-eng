@@ -14,26 +14,26 @@ const Hero = () => {
       <div className="flex flex-col gap-[2.81rem] z-30 md:justify-center md:items-center ">
         <div className="max-w-[42.042rem] flex flex-col gap-[1.48rem] md:text-center">
           <h1 className="h-42915 text-text232 md:text-[3rem]">
-            Идеал{" "}
+            Ideal{" "}
             <span className="relative h-42915 text-orange md:text-[3rem] ">
-              тайёрланган
+              prepared
               <Underline className="absolute  -bottom-4 left-0 w-[100%]" />
             </span>
-            торт мунтазам!
+            cake regular!
           </h1>
           <p className="b-125 max-w-[35rem] text-text233">
-            Caramella да мукаммалликдан завқланинг. Бизнинг самовий тортлар ва
-            оғизда эрийдиган печенеларимиз ширинликни қайта белгилайди. Ҳар бир
-            ширинликдаги пиширилган ғайриоддий лаззатлар билан лаҳзаларингизни
-            кўтаринг. Мукаммал лаззатланишга хуш келибсиз.
+            Enjoy perfection at Caramella. Our heavenly cakes and
+            melt-in-your-mouth cookies redefine dessert. Elevate with the
+            extraordinary flavors baked into every dessert. Welcome to perfect
+            enjoyment.
           </p>
         </div>
         <div className="flex flex-row items-center gap-[0.62rem] md:flex-col">
           <Link href="/about" className="btn-contained button-text text-white">
-            Кўпроқ ўқиш
+            Read More
           </Link>
           <Link href="/menu" className="btn-outlined buttton-text text-text232">
-            Заказ Беринг
+            Order Now
           </Link>
         </div>
       </div>
