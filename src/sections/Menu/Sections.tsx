@@ -7,64 +7,63 @@ import Loader from "@/svg/Loader";
 
 const Sections = () => {
   const router = useRouter();
-  const query = router?.query?.query || "weddingCake";
+  const query = router?.query?.query || "biscuit-type";
   const [display, setDisplay] = useState(query);
   const [page, setPage] = useState("1");
   const [trigger, { data, isLoading }] = useLazyGetPaginationCardQuery();
   useEffect(() => {
     trigger({ category: display, page: page, limit: "10" });
   }, [trigger, display, page]);
-
   return (
     <div className="cont-y">
       <div className="container-p w-full bg-orange min-h-[5rem] py-[1rem] flex flex-row flex-wrap justify-center items-center gap-8">
         <button
-          onClick={() => setDisplay("weddingCake")}
+          onClick={() => setDisplay("biscuit-type")}
           className={`button-text text-white ${
-            display === "weddingCake" && "bg-text233"
+            display === "biscuit-type" && "bg-text233"
           } px-[1rem] py-[0.5rem] rounded-[10rem] hover:bg-text233 transition-all`}
         >
-          wedding cakes
+          Biscuit Type
         </button>
         <button
-          onClick={() => setDisplay("macarons")}
+          onClick={() => setDisplay("half-ready")}
           className={`button-text text-white ${
-            display === "macarons" && "bg-text233"
+            display === "half-ready" && "bg-text233"
           } px-[1rem] py-[0.5rem] rounded-[10rem] hover:bg-text233 transition-all`}
         >
-          macarons
+          Half Ready
         </button>
         <button
-          onClick={() => setDisplay("biscuits")}
+          onClick={() => setDisplay("cookie")}
           className={`button-text text-white ${
-            display === "biscuits" && "bg-text233"
+            display === "cookie" && "bg-text233"
           } px-[1rem] py-[0.5rem] rounded-[10rem] hover:bg-text233 transition-all`}
         >
-          biscuits
+          Cookie
         </button>
         <button
-          onClick={() => setDisplay("customCake")}
+          onClick={() => setDisplay("layer-type")}
           className={`button-text text-white ${
-            display === "customCake" && "bg-text233"
+            display === "layer-type" && "bg-text233"
           } px-[1rem] py-[0.5rem] rounded-[10rem] hover:bg-text233 transition-all`}
         >
-          custom cakes
+          Layer Type
         </button>
         <button
-          onClick={() => setDisplay("cupcake")}
+          onClick={() => setDisplay("salad")}
           className={`button-text text-white ${
-            display === "cupcake" && "bg-text233"
+            display === "salad" && "bg-text233"
           } px-[1rem] py-[0.5rem] rounded-[10rem] hover:bg-text233 transition-all`}
         >
-          cupcake
+          Salad
         </button>
         <button
-          onClick={() => setDisplay("birthdayCake")}
+          onClick={() => setDisplay("mousse")}
           className={`button-text text-white ${
-            display === "birthdayCake" && "bg-text233"
+            display === "mousse" && "bg-text233"
           } px-[1rem] py-[0.5rem] rounded-[10rem] hover:bg-text233 transition-all`}
         >
-          birthday cakes
+          Mousse
         </button>
       </div>
       <div className="cont-y">

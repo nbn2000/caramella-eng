@@ -59,7 +59,7 @@ const Gallery = () => {
         <div
           className="wedding-cake absolute top-[0%] right-[25%] aspect-square w-[9%] lg:w-[13%] lg:right-[15%]"
           onMouseMove={() =>
-            handleHover(1, weddingCake, "/menu?query=weddingCake")
+            handleHover(1, weddingCake, "/menu?query=biscuit-type")
           }
         >
           <div className="relative w-full h-full">
@@ -72,13 +72,13 @@ const Gallery = () => {
             />
 
             <h6 className="text-text233 b-125 absolute top-[100%]  left-[50%] translate-x-[-50%] md:text-[0.8rem] whitespace-nowrap">
-              Wedding Cakes
+              Biscuit Type
             </h6>
           </div>
         </div>
         <div
           className="biscuit absolute right-[25%] bottom-[0%] aspect-square w-[9%] lg:w-[13%] lg:right-[15%]"
-          onMouseMove={() => handleHover(2, biscuits, "/menu?query=biscuits")}
+          onMouseMove={() => handleHover(2, biscuits, "/menu?query=half-ready")}
         >
           <div className="relative w-full h-full">
             <Image
@@ -89,13 +89,13 @@ const Gallery = () => {
               className={mainImg.id === 2 ? hovered : unHovered}
             />
             <h6 className="text-text233 b-125 absolute top-[100%]  left-[50%] translate-x-[-50%] md:text-[0.8rem] whitespace-nowrap">
-              Biscuits
+              Half Ready
             </h6>
           </div>
         </div>
         <div
           className="cupcake absolute left-[15%] top-[50%] -translate-y-[50%] aspect-square w-[9%] lg:w-[13%] lg:left-[5%]"
-          onMouseMove={() => handleHover(3, cupCake, "/menu?query=cupcake")}
+          onMouseMove={() => handleHover(3, cupCake, "/menu?query=cookie")}
         >
           <div className="relative w-full h-full">
             <Image
@@ -106,14 +106,14 @@ const Gallery = () => {
               className={mainImg.id === 3 ? hovered : unHovered}
             />
             <h6 className="text-text233 b-125 absolute top-[100%]  left-[50%] translate-x-[-50%] md:text-[0.8rem] whitespace-nowrap">
-              Cupcakes
+              Cookie
             </h6>
           </div>
         </div>
         <div
           className="custom-cake absolute left-[25%] bottom-[0%] aspect-square w-[9%] lg:w-[13%] lg:left-[15%]"
           onMouseMove={() =>
-            handleHover(4, customCake, "/menu?query=customCake")
+            handleHover(4, customCake, "/menu?query=layer-type")
           }
         >
           <div className="relative w-full h-full">
@@ -125,14 +125,14 @@ const Gallery = () => {
               className={mainImg.id === 4 ? hovered : unHovered}
             />
             <h6 className="text-text233 b-125 absolute top-[100%]  left-[50%] translate-x-[-50%] md:text-[0.8rem] whitespace-nowrap">
-              Custom Cakes
+              Layer Type
             </h6>
           </div>
         </div>
 
         <div
           className="macarons absolute right-[15%] top-[50%] -translate-y-[50%] aspect-square w-[9%] lg:w-[13%] lg:right-[5%]"
-          onMouseMove={() => handleHover(5, macarons, "/menu?query=macarons")}
+          onMouseMove={() => handleHover(5, macarons, "/menu?query=salad")}
         >
           <div className="relative w-full h-full">
             <Image
@@ -143,15 +143,13 @@ const Gallery = () => {
               className={mainImg.id === 5 ? hovered : unHovered}
             />
             <h6 className="text-text233 b-125 absolute top-[100%]  left-[50%] translate-x-[-50%] md:text-[0.8rem] whitespace-nowrap">
-              Macarons
+              Salad
             </h6>
           </div>
         </div>
         <div
           className="birthday-cake absolute left-[25%] top-[0%] lg:left-[15%]  aspect-square w-[9%] lg:w-[13%]"
-          onMouseMove={() =>
-            handleHover(6, birthdayCake, "/menu?query=birthdayCake")
-          }
+          onMouseMove={() => handleHover(6, birthdayCake, "/menu?query=mousse")}
         >
           <div className="relative w-full h-full ">
             <Image
@@ -162,7 +160,7 @@ const Gallery = () => {
               className={mainImg.id === 6 ? hovered : unHovered}
             />
             <h6 className="text-text233 b-125 absolute top-[100%] left-[50%] translate-x-[-50%] md:text-[0.8rem] whitespace-nowrap">
-              Birthday Cakes
+              Mousse
             </h6>
           </div>
         </div>
