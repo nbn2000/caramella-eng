@@ -4,7 +4,8 @@ import { useGetNewThreeCardQuery } from "@/api/card.api.req";
 import CardsSkeleton from "@/components/CardsSkeleton";
 
 const NewProducts = () => {
-  const { data, isLoading, isError } = useGetNewThreeCardQuery({});
+  const { data, isLoading, isFetching, isError } = useGetNewThreeCardQuery({});
+  const loading = isLoading || isFetching;
   if (data?.length === 0 || isError) return;
   return (
     <div className="cont-y container-p">
@@ -15,11 +16,8 @@ const NewProducts = () => {
           <SmallUnderline className="absolute -bottom-2 left-0 w-full" />
         </span>
       </h2>
-      {isLoading ? (
-        <CardsSkeleton length={3} />
-      ) : (
-        !isError && <Cards data={data} />
-      )}
+      {loading && <CardsSkeleton length={3} />}{" "}
+      {!isError && <Cards data={data} />}
     </div>
   );
 };
