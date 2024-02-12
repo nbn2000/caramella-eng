@@ -38,12 +38,16 @@ const MobileNav = () => {
               {links.map((i, idx) => (
                 <li
                   key={idx}
-                  className="active:bg-gray-500 hover:bg-gray-500 rounded-sm"
+                  className={`${
+                    router.pathname === i.link && "bg-gray-500"
+                  } active:bg-gray-500 hover:bg-gray-500 rounded-sm`}
                 >
                   <label
                     htmlFor="my-drawer"
                     aria-label="close sidebar"
-                    className="drawer-overlay w-full l-1125 text-text232 hover:text-white active:text-white"
+                    className={`${
+                      router.pathname === i.link && "text-white"
+                    } drawer-overlay w-full l-1125 text-text232 hover:text-white active:text-white`}
                     onClick={() => handlNavigate(i.link)}
                   >
                     {i.label}

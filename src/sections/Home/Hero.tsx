@@ -29,10 +29,16 @@ const Hero = () => {
           </p>
         </div>
         <div className="flex flex-row items-center gap-[0.62rem] md:flex-col">
-          <Link href="/about" className="btn-contained button-text text-white">
+          <Link
+            href="/about"
+            className="btn-contained button-text text-white sm:!w-[90vw]"
+          >
             Read More
           </Link>
-          <Link href="/menu" className="btn-outlined buttton-text text-text232">
+          <Link
+            href="/menu"
+            className="btn-outlined buttton-text text-text232 sm:!w-[90vw]"
+          >
             Order Now
           </Link>
         </div>

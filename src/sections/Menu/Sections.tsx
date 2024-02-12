@@ -14,11 +14,15 @@ const Sections = () => {
   useEffect(() => {
     trigger({ category: display, page: page, limit: "10" });
   }, [trigger, display, page]);
+  const handleClickMenu = (event: string) => {
+    setDisplay(event);
+    setPage("1");
+  };
   return (
     <div className="cont-y">
       <div className="container-p w-full bg-orange min-h-[5rem] py-[1rem] flex flex-row flex-wrap justify-center items-center gap-8">
         <button
-          onClick={() => setDisplay("biscuit-type")}
+          onClick={() => handleClickMenu("biscuit-type")}
           className={`button-text text-white ${
             display === "biscuit-type" && "bg-text233"
           } px-[1rem] py-[0.5rem] rounded-[10rem] hover:bg-text233 transition-all`}
@@ -26,7 +30,7 @@ const Sections = () => {
           Biscuit Type
         </button>
         <button
-          onClick={() => setDisplay("half-ready")}
+          onClick={() => handleClickMenu("half-ready")}
           className={`button-text text-white ${
             display === "half-ready" && "bg-text233"
           } px-[1rem] py-[0.5rem] rounded-[10rem] hover:bg-text233 transition-all`}
@@ -34,7 +38,7 @@ const Sections = () => {
           Half Ready
         </button>
         <button
-          onClick={() => setDisplay("cookie")}
+          onClick={() => handleClickMenu("cookie")}
           className={`button-text text-white ${
             display === "cookie" && "bg-text233"
           } px-[1rem] py-[0.5rem] rounded-[10rem] hover:bg-text233 transition-all`}
@@ -42,7 +46,7 @@ const Sections = () => {
           Cookie
         </button>
         <button
-          onClick={() => setDisplay("layer-type")}
+          onClick={() => handleClickMenu("layer-type")}
           className={`button-text text-white ${
             display === "layer-type" && "bg-text233"
           } px-[1rem] py-[0.5rem] rounded-[10rem] hover:bg-text233 transition-all`}
@@ -50,7 +54,7 @@ const Sections = () => {
           Layer Type
         </button>
         <button
-          onClick={() => setDisplay("salad")}
+          onClick={() => handleClickMenu("salad")}
           className={`button-text text-white ${
             display === "salad" && "bg-text233"
           } px-[1rem] py-[0.5rem] rounded-[10rem] hover:bg-text233 transition-all`}
@@ -58,7 +62,7 @@ const Sections = () => {
           Salad
         </button>
         <button
-          onClick={() => setDisplay("mousse")}
+          onClick={() => handleClickMenu("mousse")}
           className={`button-text text-white ${
             display === "mousse" && "bg-text233"
           } px-[1rem] py-[0.5rem] rounded-[10rem] hover:bg-text233 transition-all`}
